@@ -32,7 +32,6 @@ def get_time_chn(raw_text):
     return time2chn.get(raw_text, '')
 
 g_symbols_needed = [
-    "AMD",
     "SE",
     "BILI",
     "GOOGL",
@@ -43,20 +42,27 @@ g_symbols_needed = [
     'JMIA',
     'PDD',
     'COIN',
-    'SHOP',
     'ARM',
     'BABA',
     'SMCI',
-    'TSM',
     'JD',
     'NIO',
     'LI',
     'LKNCY',
     'BIDU',
     'XPEV',
+    'CLSK',
+    'MSTR',
+    'NVDA',
+    'MSFT',
+    'META',
+    'MARA',
+    'FUTU',
+    'SNAP',
 ]
 
 def main():
+
     date_list = []
     for i in range(-7, 30):
         today = datetime.today().date()
