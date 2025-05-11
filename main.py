@@ -12,7 +12,7 @@ pip install finance_calendars ics
 
 def gen_calendar_event(row):
     alarm1 = ics.alarm.AudioAlarm(trigger= timedelta(days=-4, hours=10)) #4天前的10点
-    alarm2 = ics.alarm.AudioAlarm(trigger= timedelta(days=-1, hours=10)) #1天前的10点
+    alarm2 = ics.alarm.AudioAlarm(trigger= timedelta(days=-1, hours=9)) #1天前的9点
     alarms = [alarm1, alarm2]
 
 
