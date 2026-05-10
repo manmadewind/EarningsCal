@@ -85,6 +85,7 @@ g_symbols_needed = [
 ]
 
 def main():
+    global g_symbols_needed
     g_symbols_needed = list(set(g_symbols_needed)) # remove duplicates
     date_list = []
     for i in range(-7, 30):
