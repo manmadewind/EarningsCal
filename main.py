@@ -32,6 +32,29 @@ def get_time_chn(raw_text):
     return time2chn.get(raw_text, '')
 
 g_symbols_needed = [
+    "INTC",
+    "MU",
+    "SNDK",
+    "AMD",
+    "ARM",
+    "AAOI",
+    "FLNC",
+    "NBIS",
+    "ALAB",
+    "GLW",
+    "MOD",
+    "AVGO",
+    "FN",
+    "GFS",
+    "NOK",
+    "MRVL",
+    "WDC",
+    "IREN",
+    "NET",
+    "SMR",
+    "QCOM",
+    "CRWV",
+    "RKLB",
     "SE",
     "BILI",
     "GOOGL",
@@ -62,7 +85,7 @@ g_symbols_needed = [
 ]
 
 def main():
-
+    g_symbols_needed = list(set(g_symbols_needed)) # remove duplicates
     date_list = []
     for i in range(-7, 30):
         today = datetime.today().date()
