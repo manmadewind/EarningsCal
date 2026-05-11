@@ -11,6 +11,17 @@ pip install finance_calendars ics
 """
 
 def gen_calendar_event(row):
+    alarm1 = ics.alarm.AudioAlarm(trigger=timedelta(hours=-86))  # D-4 10:00
+    alarm2 = ics.alarm.AudioAlarm(trigger=timedelta(hours=-15))  # D-1 09:00
+    alarms = [alarm1, alarm2]
+    event_name = '%s %s财报' % (row['symbol'], row['time_cn'])
+    e = Event(alarms=alarms, name=event_name)
+    # 给一个具体时间，不调用 make_all_day()
+    e.begin = row['publish_date'] + ' 09:00:00'
+    e.duration = timedelta(hours=1)
+    return e
+
+def old_gen_calendar_event(row):
     alarm1 = ics.alarm.AudioAlarm(trigger= timedelta(days=-4, hours=10)) #4天前的10点
     alarm2 = ics.alarm.AudioAlarm(trigger= timedelta(days=-1, hours=9)) #1天前的9点
     alarms = [alarm1, alarm2]
