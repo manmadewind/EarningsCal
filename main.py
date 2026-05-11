@@ -18,11 +18,11 @@ def gen_calendar_event(row):
     event_name = '%s %s财报' % (row['symbol'], row['time_cn'])
     e = Event(alarms=[alarm1, alarm2], name=event_name)
 
-    sgt = pytz.timezone('Asia/Hongkong')
+    hkt = pytz.timezone('Asia/Hong_kong')
     dt = datetime.strptime(row['publish_date'] + ' 09:00:00', '%Y-%m-%d %H:%M:%S')
-    dt_sgt = sgt.localize(dt)  # 明确标注为 SGT
+    dt_hkt = hkt.localize(dt)  # 明确标注为 hkt
 
-    e.begin = dt_sgt
+    e.begin = dt_hkt
     e.duration = timedelta(hours=1)
     return e
 
