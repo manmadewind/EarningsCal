@@ -10,10 +10,12 @@ import traceback
 pip install finance_calendars ics
 """
 import pytz
+from ics.alarm import DisplayAlarm # 引入 DisplayAlarm
 
 def gen_calendar_event(row):
-    alarm1 = ics.alarm.AudioAlarm(trigger=timedelta(hours=-86))  # D-4 10:00
-    alarm2 = ics.alarm.AudioAlarm(trigger=timedelta(hours=-15))  # D-1 09:00
+    # 将 AudioAlarm 替换为 DisplayAlarm
+    alarm1 = DisplayAlarm(trigger=timedelta(hours=-86))  # D-4 10:00
+    alarm2 = DisplayAlarm(trigger=timedelta(hours=-15))  # D-1 09:00
 
     event_name = '%s %s财报' % (row['symbol'], row['time_cn'])
     e = Event(alarms=[alarm1, alarm2], name=event_name)
@@ -26,7 +28,7 @@ def gen_calendar_event(row):
     e.duration = timedelta(hours=1)
     return e
 
-
+"""
 def old_gen_calendar_event(row):
     alarm1 = ics.alarm.AudioAlarm(trigger= timedelta(days=-4, hours=10)) #4天前的10点
     alarm2 = ics.alarm.AudioAlarm(trigger= timedelta(days=-1, hours=9)) #1天前的9点
@@ -38,7 +40,7 @@ def old_gen_calendar_event(row):
     e.begin = row['publish_date'] + ' 00:00:00'
     e.make_all_day()
     return e
-
+"""
 
 def get_time_chn(raw_text):
     time2chn = {
