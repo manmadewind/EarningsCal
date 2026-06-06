@@ -18,10 +18,22 @@
     "category": "经济指标"
   },
   {
+    "date": "2026-06-15",
+    "title": "ORCL Q4 FY26 财报 (暂未确定)",
+    "notes": "盘后发布 | 电话会议",
+    "category": "公司事件"
+  },
+  {
     "date": "2026-06-16",
     "title": "FOMC 利率决议 (6月)",
     "notes": "含经济预测与点阵图 | 声明 6/17 周三 2PM ET | 鲍威尔讲话 2:30PM ET",
     "category": "经济指标"
+  },
+  {
+    "date": "2026-06-16",
+    "title": "Snap AR World Expo",
+    "notes": "Long Beach | Specs AR 眼镜消费版亮相",
+    "category": "公司事件"
   },
   {
     "date": "2026-06-17",
@@ -33,6 +45,18 @@
     "date": "2026-06-23",
     "title": "Amazon Prime Day 2026",
     "notes": "6/23-26 | 年度大促",
+    "category": "公司事件"
+  },
+  {
+    "date": "2026-06-24",
+    "title": "QCOM 投资者日 2026",
+    "notes": "纽约 | AI/6G/汽车多元化战略 | 直播 qualcomm.com",
+    "category": "公司事件"
+  },
+  {
+    "date": "2026-06-24",
+    "title": "MU Q3 FY26 财报",
+    "notes": "盘后发布 2:30PM MT | 已确认",
     "category": "公司事件"
   },
   {
@@ -108,14 +132,32 @@
     "category": "经济指标"
   },
   {
+    "date": "2026-07-17",
+    "title": "NOK Q2 2026 财报 (暂未确定)",
+    "notes": "盘前发布",
+    "category": "公司事件"
+  },
+  {
     "date": "2026-07-21",
     "title": "GOOGL Q2 FY26 财报 (暂未确定)",
     "notes": "盘后发布 | 电话会议 2:00PM PT",
     "category": "公司事件"
   },
   {
+    "date": "2026-07-21",
+    "title": "IBM Q2 2026 财报 (暂未确定)",
+    "notes": "盘后发布 | 电话会议",
+    "category": "公司事件"
+  },
+  {
     "date": "2026-07-23",
     "title": "AAPL Q3 FY26 财报 (暂未确定)",
+    "notes": "盘后发布 | 电话会议 2:00PM PT",
+    "category": "公司事件"
+  },
+  {
+    "date": "2026-07-23",
+    "title": "INTC Q2 2026 财报 (暂未确定)",
     "notes": "盘后发布 | 电话会议 2:00PM PT",
     "category": "公司事件"
   },
@@ -138,6 +180,24 @@
     "category": "公司事件"
   },
   {
+    "date": "2026-07-29",
+    "title": "ARM Q1 FY27 财报 (暂未确定)",
+    "notes": "盘后发布 | 电话会议",
+    "category": "公司事件"
+  },
+  {
+    "date": "2026-07-29",
+    "title": "QCOM Q3 FY26 财报 (暂未确定)",
+    "notes": "盘后发布 | 电话会议",
+    "category": "公司事件"
+  },
+  {
+    "date": "2026-07-29",
+    "title": "SNDK Q2 2026 财报 (暂未确定)",
+    "notes": "盘后发布",
+    "category": "公司事件"
+  },
+  {
     "date": "2026-07-30",
     "title": "PCE/个人收支 (6月)",
     "notes": "8:30 AM ET",
@@ -153,6 +213,18 @@
     "date": "2026-07-30",
     "title": "AMZN Q2 FY26 财报 (暂未确定)",
     "notes": "盘后发布 | 电话会议 2:00PM PT",
+    "category": "公司事件"
+  },
+  {
+    "date": "2026-07-30",
+    "title": "MRAM Q2 2026 财报 (暂未确定)",
+    "notes": "盘后发布",
+    "category": "公司事件"
+  },
+  {
+    "date": "2026-07-30",
+    "title": "SNAP Q2 2026 财报 (暂未确定)",
+    "notes": "盘后发布 | 电话会议",
     "category": "公司事件"
   },
   {
@@ -174,10 +246,22 @@
     "category": "经济指标"
   },
   {
+    "date": "2026-08-04",
+    "title": "AMD Q2 2026 财报 (暂未确定)",
+    "notes": "盘后发布 | 电话会议 2:00PM PT",
+    "category": "公司事件"
+  },
+  {
     "date": "2026-08-05",
     "title": "ISM服务业PMI (7月)",
     "notes": "10:00 AM ET",
     "category": "经济指标"
+  },
+  {
+    "date": "2026-08-06",
+    "title": "CLSK Q3 FY26 财报 (暂未确定)",
+    "notes": "盘后发布",
+    "category": "公司事件"
   },
   {
     "date": "2026-08-07",
@@ -186,16 +270,58 @@
     "category": "经济指标"
   },
   {
+    "date": "2026-08-07",
+    "title": "BE Q2 2026 财报 (暂未确定)",
+    "notes": "盘后发布",
+    "category": "公司事件"
+  },
+  {
+    "date": "2026-08-07",
+    "title": "ALAB Q2 2026 财报 (暂未确定)",
+    "notes": "盘后发布",
+    "category": "公司事件"
+  },
+  {
+    "date": "2026-08-07",
+    "title": "NVTS Q2 2026 财报 (暂未确定)",
+    "notes": "盘后发布",
+    "category": "公司事件"
+  },
+  {
+    "date": "2026-08-11",
+    "title": "NIO Q2 2026 财报 (暂未确定)",
+    "notes": "盘前发布 | 电话会议",
+    "category": "公司事件"
+  },
+  {
     "date": "2026-08-12",
     "title": "CPI (7月)",
     "notes": "8:30 AM ET",
     "category": "经济指标"
   },
   {
+    "date": "2026-08-12",
+    "title": "JMIA Q2 2026 财报 (暂未确定)",
+    "notes": "盘前发布",
+    "category": "公司事件"
+  },
+  {
     "date": "2026-08-13",
     "title": "PPI (7月)",
     "notes": "8:30 AM ET",
     "category": "经济指标"
+  },
+  {
+    "date": "2026-08-13",
+    "title": "NBIS Q2 2026 财报 (暂未确定)",
+    "notes": "盘后发布",
+    "category": "公司事件"
+  },
+  {
+    "date": "2026-08-13",
+    "title": "CRWV Q2 2026 财报 (暂未确定)",
+    "notes": "盘后发布",
+    "category": "公司事件"
   },
   {
     "date": "2026-08-14",
@@ -208,6 +334,12 @@
     "title": "密歇根消费者信心 (8月初值)",
     "notes": "10:00 AM ET",
     "category": "经济指标"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "FUTU Q2 2026 财报 (暂未确定)",
+    "notes": "盘前发布",
+    "category": "公司事件"
   },
   {
     "date": "2026-08-26",
@@ -228,10 +360,34 @@
     "category": "公司事件"
   },
   {
+    "date": "2026-08-26",
+    "title": "IREN Q4 FY26 财报 (暂未确定)",
+    "notes": "盘后发布",
+    "category": "公司事件"
+  },
+  {
+    "date": "2026-08-26",
+    "title": "PDD Q2 2026 财报 (暂未确定)",
+    "notes": "盘前发布 | 电话会议",
+    "category": "公司事件"
+  },
+  {
+    "date": "2026-08-27",
+    "title": "LI Q2 2026 财报 (暂未确定)",
+    "notes": "盘前发布 | 电话会议",
+    "category": "公司事件"
+  },
+  {
     "date": "2026-08-28",
     "title": "密歇根消费者信心 (8月终值)",
     "notes": "10:00 AM ET",
     "category": "经济指标"
+  },
+  {
+    "date": "2026-08-28",
+    "title": "MRVL Q2 FY27 财报 (暂未确定)",
+    "notes": "盘后发布 | 电话会议",
+    "category": "公司事件"
   },
   {
     "date": "2026-09-01",
@@ -270,6 +426,12 @@
     "category": "经济指标"
   },
   {
+    "date": "2026-09-10",
+    "title": "ORCL Q1 FY27 财报 (暂未确定)",
+    "notes": "盘后发布 | 电话会议",
+    "category": "公司事件"
+  },
+  {
     "date": "2026-09-11",
     "title": "CPI (8月)",
     "notes": "8:30 AM ET",
@@ -297,6 +459,18 @@
     "date": "2026-09-23",
     "title": "Meta Connect 2026",
     "notes": "9/23-24 | 基 keynote 4:00PM PT | AI/VR/AR/智能眼镜新品",
+    "category": "公司事件"
+  },
+  {
+    "date": "2026-09-23",
+    "title": "MU Q4 FY26 财报 (预计) (暂未确定)",
+    "notes": "盘后发布",
+    "category": "公司事件"
+  },
+  {
+    "date": "2026-09-24",
+    "title": "BB Q2 FY27 财报 (暂未确定)",
+    "notes": "盘后发布",
     "category": "公司事件"
   },
   {
@@ -384,9 +558,33 @@
     "category": "公司事件"
   },
   {
+    "date": "2026-10-16",
+    "title": "NOK Q3 2026 财报 (暂未确定)",
+    "notes": "盘前发布",
+    "category": "公司事件"
+  },
+  {
+    "date": "2026-10-20",
+    "title": "IBM Q3 2026 财报 (暂未确定)",
+    "notes": "盘后发布 | 电话会议",
+    "category": "公司事件"
+  },
+  {
     "date": "2026-10-22",
     "title": "GOOGL Q3 FY26 财报 (暂未确定)",
     "notes": "盘后发布 | 电话会议 2:00PM PT",
+    "category": "公司事件"
+  },
+  {
+    "date": "2026-10-22",
+    "title": "INTC Q3 2026 财报 (暂未确定)",
+    "notes": "盘后发布 | 电话会议 2:00PM PT",
+    "category": "公司事件"
+  },
+  {
+    "date": "2026-10-26",
+    "title": "Oracle AI World 2026 (预计)",
+    "notes": "10/26-29 | 拉斯维加斯 Venetian | 原名 CloudWorld",
     "category": "公司事件"
   },
   {
@@ -405,6 +603,18 @@
     "date": "2026-10-28",
     "title": "MSFT Q1 FY27 财报 (暂未确定)",
     "notes": "盘后发布 | 电话会议 2:30PM PT",
+    "category": "公司事件"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "QCOM Q4 FY26 财报 (暂未确定)",
+    "notes": "盘后发布 | 电话会议",
+    "category": "公司事件"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "SNDK Q3 2026 财报 (暂未确定)",
+    "notes": "盘后发布",
     "category": "公司事件"
   },
   {
@@ -432,6 +642,18 @@
     "category": "公司事件"
   },
   {
+    "date": "2026-10-29",
+    "title": "MRAM Q3 2026 财报 (暂未确定)",
+    "notes": "盘后发布",
+    "category": "公司事件"
+  },
+  {
+    "date": "2026-10-29",
+    "title": "SNAP Q3 2026 财报 (暂未确定)",
+    "notes": "盘后发布 | 电话会议",
+    "category": "公司事件"
+  },
+  {
     "date": "2026-10-30",
     "title": "密歇根消费者信心 (10月终值)",
     "notes": "10:00 AM ET",
@@ -450,10 +672,40 @@
     "category": "经济指标"
   },
   {
+    "date": "2026-11-03",
+    "title": "AMD Q3 2026 财报 (暂未确定)",
+    "notes": "盘后发布 | 电话会议 2:00PM PT",
+    "category": "公司事件"
+  },
+  {
     "date": "2026-11-04",
     "title": "ISM服务业PMI (10月)",
     "notes": "10:00 AM ET",
     "category": "经济指标"
+  },
+  {
+    "date": "2026-11-04",
+    "title": "ARM Q2 FY27 财报 (暂未确定)",
+    "notes": "盘后发布 | 电话会议",
+    "category": "公司事件"
+  },
+  {
+    "date": "2026-11-05",
+    "title": "CLSK Q4 FY26 财报 (暂未确定)",
+    "notes": "盘后发布",
+    "category": "公司事件"
+  },
+  {
+    "date": "2026-11-05",
+    "title": "ALAB Q3 2026 财报 (暂未确定)",
+    "notes": "盘后发布",
+    "category": "公司事件"
+  },
+  {
+    "date": "2026-11-05",
+    "title": "NVTS Q3 2026 财报 (暂未确定)",
+    "notes": "盘后发布",
+    "category": "公司事件"
   },
   {
     "date": "2026-11-06",
@@ -462,10 +714,40 @@
     "category": "经济指标"
   },
   {
+    "date": "2026-11-06",
+    "title": "BE Q3 2026 财报 (暂未确定)",
+    "notes": "盘后发布",
+    "category": "公司事件"
+  },
+  {
     "date": "2026-11-10",
     "title": "CPI (10月)",
     "notes": "8:30 AM ET",
     "category": "经济指标"
+  },
+  {
+    "date": "2026-11-11",
+    "title": "JMIA Q3 2026 财报 (暂未确定)",
+    "notes": "盘前发布",
+    "category": "公司事件"
+  },
+  {
+    "date": "2026-11-11",
+    "title": "NIO Q3 2026 财报 (暂未确定)",
+    "notes": "盘前发布 | 电话会议",
+    "category": "公司事件"
+  },
+  {
+    "date": "2026-11-12",
+    "title": "NBIS Q3 2026 财报 (暂未确定)",
+    "notes": "盘后发布",
+    "category": "公司事件"
+  },
+  {
+    "date": "2026-11-12",
+    "title": "CRWV Q3 2026 财报 (暂未确定)",
+    "notes": "盘后发布",
+    "category": "公司事件"
   },
   {
     "date": "2026-11-13",
@@ -478,6 +760,12 @@
     "title": "密歇根消费者信心 (11月初值)",
     "notes": "10:00 AM ET",
     "category": "经济指标"
+  },
+  {
+    "date": "2026-11-13",
+    "title": "FUTU Q3 2026 财报 (暂未确定)",
+    "notes": "盘前发布",
+    "category": "公司事件"
   },
   {
     "date": "2026-11-16",
@@ -498,6 +786,18 @@
     "category": "公司事件"
   },
   {
+    "date": "2026-11-19",
+    "title": "PDD Q3 2026 财报 (暂未确定)",
+    "notes": "盘前发布 | 电话会议",
+    "category": "公司事件"
+  },
+  {
+    "date": "2026-11-20",
+    "title": "LI Q3 2026 财报 (暂未确定)",
+    "notes": "盘前发布 | 电话会议",
+    "category": "公司事件"
+  },
+  {
     "date": "2026-11-25",
     "title": "PCE/个人收支 (10月)",
     "notes": "8:30 AM ET",
@@ -514,6 +814,18 @@
     "title": "GDP-Q3修正值",
     "notes": "8:30 AM ET",
     "category": "经济指标"
+  },
+  {
+    "date": "2026-11-25",
+    "title": "IREN Q1 FY27 财报 (暂未确定)",
+    "notes": "盘后发布",
+    "category": "公司事件"
+  },
+  {
+    "date": "2026-11-27",
+    "title": "MRVL Q3 FY27 财报 (暂未确定)",
+    "notes": "盘后发布 | 电话会议",
+    "category": "公司事件"
   },
   {
     "date": "2026-11-30",
@@ -558,6 +870,12 @@
     "category": "经济指标"
   },
   {
+    "date": "2026-12-10",
+    "title": "ORCL Q2 FY27 财报 (暂未确定)",
+    "notes": "盘后发布 | 电话会议",
+    "category": "公司事件"
+  },
+  {
     "date": "2026-12-11",
     "title": "密歇根消费者信心 (12月初值)",
     "notes": "10:00 AM ET",
@@ -574,6 +892,12 @@
     "title": "零售销售 (11月) (暂未确定)",
     "notes": "8:30 AM ET",
     "category": "经济指标"
+  },
+  {
+    "date": "2026-12-18",
+    "title": "BB Q3 FY27 财报 (暂未确定)",
+    "notes": "盘后发布",
+    "category": "公司事件"
   },
   {
     "date": "2026-12-23",
