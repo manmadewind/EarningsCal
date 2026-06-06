@@ -10,6 +10,7 @@ import traceback
 pip install finance_calendars ics
 """
 import pytz
+import json
 from ics.alarm import DisplayAlarm # 引入 DisplayAlarm
 
 def gen_calendar_event(row):
@@ -27,6 +28,22 @@ def gen_calendar_event(row):
     e.begin = dt_hkt
     e.duration = timedelta(hours=1)
     return e
+
+
+def gen_economic_event(item):
+    alarm1 = DisplayAlarm(trigger=timedelta(hours=-86))  # D-4 10:00
+    alarm2 = DisplayAlarm(trigger=timedelta(hours=-15))  # D-1 09:00
+
+    e = Event(alarms=[alarm1, alarm2], name=item['title'])
+
+    cst = pytz.timezone('Asia/Shanghai')
+    dt = datetime.strptime(item['date'] + ' 10:00:00', '%Y-%m-%d %H:%M:%S')
+    dt_cst = cst.localize(dt)
+
+    e.begin = dt_cst
+    e.duration = timedelta(hours=1)
+    return e
+
 
 """
 def old_gen_calendar_event(row):
@@ -51,6 +68,7 @@ def get_time_chn(raw_text):
     return time2chn.get(raw_text, '')
 
 g_symbols_needed = [
+    "ORCL",
     "INTC",
     "MU",
     "SNDK",
@@ -140,6 +158,12 @@ def main():
         e = gen_calendar_event(row)
         calendar.events.add(e)
 
+    # 加载补充事件（经济数据等）
+    with open('./more_events/economic_events.json', 'r') as f:
+        economic_events = json.load(f)
+    for item in economic_events:
+        e = gen_economic_event(item)
+        calendar.events.add(e)
 
     with open('./data/my_calendar.ics', 'w') as f:
         f.writelines(calendar.serialize_iter())
